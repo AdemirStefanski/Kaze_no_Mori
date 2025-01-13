@@ -70,6 +70,7 @@ const Header: React.FC = () => {
             <SubCategories className="sub-categories">
               <CategoryItem>Subcategoria 1</CategoryItem>
               <CategoryItem>Subcategoria 2</CategoryItem>
+              <CategoryItem>Subcategoria 2</CategoryItem>
             </SubCategories>
           </Category>
           <Category>
