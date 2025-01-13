@@ -1,153 +1,100 @@
-import React from "react";
-import styled from "styled-components";
+import React, { useState } from "react";
 
-const HeaderContainer = styled.header`
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-`;
+import { FaSearch } from "react-icons/fa";
+import { LuShoppingCart } from "react-icons/lu";
 
-const TopLine = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-`;
+import {
+  HeaderContainer,
+  TopLine,
+  Logo,
+  SearchContainer,
+  SearchInput,
+  UserContainer,
+  UserPhoto,
+  UserName,
+  CartContainer,
+  CartIcon,
+  BottomLine,
+  DropdownMenu,
+  Category,
+  SubCategories,
+  CategoryItem,
+  SearchButton,
+  CartIconWrapper,
+  CartBadge,
+  CartValue,
+} from "./styles";
 
-const Logo = styled.img`
-  height: 40px; // Ajuste conforme o tamanho do seu logotipo
-`;
-
-const SearchContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-`;
-
-const SearchInput = styled.input`
-  height: 30px;
-  width: 100%;
-  border: none;
-  border-radius: 15px;
-  padding-left: 10px;
-  background-color: #f0f0f0;
-`;
-
-const UserContainer = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-const UserPhoto = styled.img`
-  border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-`;
-
-const UserName = styled.span`
-  margin-right: 20px;
-`;
-
-const CartContainer = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-const CartIcon = styled.img`
-  width: 30px;
-  height: 30px;
-  margin-left: 10px;
-`;
-
-const BottomLine = styled.div`
-  background-color: #a17c5b;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 50px;
-  padding: 0 20px;
-`;
-
-const DropdownMenu = styled.div`
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-`;
-
-const Category = styled.div`
-  position: relative;
-  padding: 10px;
-  cursor: pointer;
-  &:hover .sub-categories {
-    display: block;
-  }
-`;
-
-const SubCategories = styled.div`
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
-  width: 100%;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-`;
-
-const CategoryItem = styled.div`
-  padding: 10px;
-  cursor: pointer;
-`;
+import LogoBonsai from "../../assets/logos/logo_bonsai_name.png";
+import UserImage from "../../assets/images/20210227_111716.jpg";
 
 const Header: React.FC = () => {
+  const itemCount = 13; // Número de itens no carrinho (temporário)
+  const totalValue = "R$ 372,47";
+  const userName = "Ademir Stefanski";
+
   return (
     <HeaderContainer>
       <TopLine>
-        <Logo src="logo.png" alt="Logo" />
+        <Logo src={LogoBonsai} alt="Logo" />
         <SearchContainer>
-          <SearchInput placeholder="Procurar produto..." />
+          <SearchInput
+            type="text"
+            placeholder="Procurar produto..."
+            // value={searchTerm}
+            // onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          {/* <SearchButton onClick={handleSearch}> */}
+          <SearchButton>
+            <FaSearch />
+          </SearchButton>
         </SearchContainer>
         <UserContainer>
-          <UserPhoto src="user.jpg" alt="Foto do usuário" />
-          <UserName>Nome do Usuário</UserName>
+          <UserPhoto src={UserImage} alt="Foto do usuário" />
+          <UserName>{userName}</UserName>
         </UserContainer>
         <CartContainer>
-          <CartIcon src="cart-icon.png" alt="Carrinho de Compras" />
-          <span>R$ 100,00</span>
+          <CartIconWrapper>
+            <CartIcon>
+              <LuShoppingCart />
+            </CartIcon>
+            <CartBadge>{itemCount}</CartBadge>
+          </CartIconWrapper>
+          <CartValue>{totalValue}</CartValue>
         </CartContainer>
       </TopLine>
       <BottomLine>
         <DropdownMenu>
           <Category>
-            Categoria 1
+            Bonsais
             <SubCategories className="sub-categories">
               <CategoryItem>Subcategoria 1</CategoryItem>
               <CategoryItem>Subcategoria 2</CategoryItem>
             </SubCategories>
           </Category>
           <Category>
-            Categoria 2
+            Tools
             <SubCategories className="sub-categories">
               <CategoryItem>Subcategoria 1</CategoryItem>
               <CategoryItem>Subcategoria 2</CategoryItem>
             </SubCategories>
           </Category>
           <Category>
-            Categoria 3
+            Supplies
             <SubCategories className="sub-categories">
               <CategoryItem>Subcategoria 1</CategoryItem>
               <CategoryItem>Subcategoria 2</CategoryItem>
             </SubCategories>
           </Category>
           <Category>
-            Categoria 4
+            Accessories
             <SubCategories className="sub-categories">
               <CategoryItem>Subcategoria 1</CategoryItem>
               <CategoryItem>Subcategoria 2</CategoryItem>
             </SubCategories>
           </Category>
           <Category>
-            Categoria 5
+            Pots
             <SubCategories className="sub-categories">
               <CategoryItem>Subcategoria 1</CategoryItem>
               <CategoryItem>Subcategoria 2</CategoryItem>
