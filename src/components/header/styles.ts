@@ -16,7 +16,7 @@ export const TopLine = styled.div`
 `;
 
 export const Logo = styled.img`
-  height: 40px;
+  height: 38px;
   margin-right: 30px;
 `;
 
