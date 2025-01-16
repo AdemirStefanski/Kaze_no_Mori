@@ -67,7 +67,7 @@ const CardBonsai: React.FC<{ bonsai: Bonsai }> = ({ bonsai }) => {
         <PriceBuy>
           <Price>R$ {bonsai.price}</Price>
           <BuyButton onClick={() => alert("Navigate to BUY page")}>
-            BUY
+            View Details
           </BuyButton>
         </PriceBuy>
       </SupDiv>

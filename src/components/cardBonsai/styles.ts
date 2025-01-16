@@ -61,7 +61,7 @@ export const PriceBuy = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 10px 10px 10px;
+  padding: 0 0px 10px 0px;
 `;
 
 export const Price = styled.div`
@@ -77,7 +77,7 @@ export const BuyButton = styled.button`
   font-weight: 600;
   border: none;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 10px 10px;
   cursor: pointer;
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2),
     inset -2px -2px 4px rgba(255, 255, 255, 0.4), 2px 2px 4px rgba(0, 0, 0, 0);
