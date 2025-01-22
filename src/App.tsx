@@ -11,7 +11,7 @@ function App() {
       images: [
         "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9458-removebg-preview-4net407vhy.png",
         "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9461-removebg-preview-pgldx85edm.png",
-        "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9460-removebg-preview-gp37pfirwq.png",
+        "https://i.imgur.com/ALV20Of.jpeg",
       ],
       age: "5 anos",
       height: "30 cm",
