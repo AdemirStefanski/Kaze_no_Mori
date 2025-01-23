@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/header";
 import { GlobalStyle } from "../src/styles/globalStyle";
 import CardBonsai from "./components/cardBonsai";
+import Banner from "./components/banner";
 
 function App() {
   const bonsais = [
@@ -22,7 +23,8 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <Header />
-      <div
+      <Banner />
+      {/* <div
         style={{
           display: "flex",
           gap: "20px",
@@ -34,7 +36,7 @@ function App() {
         {bonsais.map((bonsai) => (
           <CardBonsai key={bonsai.id} bonsai={bonsai} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -2,7 +2,12 @@
   {
     id: "001",
     name: "Ligustrinho Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/OJbCI2f.png",
+      "https://i.imgur.com/M4B2ijb.png",
+      "https://i.imgur.com/1PA3jyg.png",
+      "https://i.imgur.com/4LBxF28.png",
+    ],
     age: "15 years",
     height: "46 cm",
     price: "",
@@ -28,7 +33,12 @@
   {
     id: "002",
     name: "Juníperus Procumbens Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/NyIz9en.png",
+      "https://i.imgur.com/QqHAbyc.png",
+      "https://i.imgur.com/r3Ru874.png",
+      "https://i.imgur.com/TrLVUze.png",
+    ],
     age: "15 years",
     height: "48 cm",
     price: "",
@@ -58,7 +68,12 @@
   {
     id: "004",
     name: "Caliandra Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/J2Fxr1o.png",
+      "https://i.imgur.com/vWwlCY9.png",
+      "https://i.imgur.com/jc5dfD8.png",
+      "https://i.imgur.com/Hfv5MHd.png",
+    ],
     age: "15 years",
     height: "50 cm",
     price: "",
@@ -82,7 +97,12 @@
   {
     id: "005",
     name: "Serissa Phoetida Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/WL9mtx3.png",
+      "https://i.imgur.com/i09Hom3.png",
+      "https://i.imgur.com/V5bzFO8.png",
+      "https://i.imgur.com/4cCG7rr.png",
+    ],
     age: "4 years",
     height: "25 cm",
     price: "",
@@ -110,7 +130,12 @@
   {
     id: "006",
     name: "Pyracantha Yellow Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/Ce7xL0L.png",
+      "https://i.imgur.com/ReGz2PE.png",
+      "https://i.imgur.com/OPkS4H8.png",
+      "",
+    ],
     age: "5 years",
     height: "25 cm",
     price: "",
@@ -138,7 +163,12 @@
   {
     id: "007",
     name: "Calliandra White Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/r8ijBdK.png",
+      "https://i.imgur.com/hieoHkn.png",
+      "https://i.imgur.com/BS799Qt.png",
+      "https://i.imgur.com/ICROcDB.png",
+    ],
     age: "3 years",
     height: "22 cm",
     price: "",
@@ -160,7 +190,12 @@
   {
     id: "008",
     name: "Piracanta Amarela Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/F5sjL6S.png",
+      "https://i.imgur.com/lHVgeXA.png",
+      "https://i.imgur.com/1WawXTy.png",
+      "https://i.imgur.com/hzK3aee.png",
+    ],
     age: "5 years",
     height: "28 cm",
     price: "",
@@ -185,7 +220,12 @@
   {
     id: "009",
     name: "Caliandra Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/iK4Grga.png",
+      "https://i.imgur.com/Y46wqJ7.png",
+      "https://i.imgur.com/voghNHc.png",
+      "",
+    ],
     age: "15 years",
     height: "50 cm",
     price: "",
@@ -208,7 +248,12 @@
   {
     id: "010",
     name: "Carmona Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/z1ErEI9.png",
+      "https://i.imgur.com/bHnGL2V.png",
+      "https://i.imgur.com/DrvzB93.png",
+      "https://i.imgur.com/zCkSGIS.png",
+    ],
     age: "15 years",
     height: "50 cm",
     price: "",
@@ -233,7 +278,12 @@
   {
     id: "011",
     name: "Cerejeira Silvestre Bonsai",
-    images: ["", "", "", ""],
+    images: [
+      "https://i.imgur.com/W7hSmJL.png",
+      "https://i.imgur.com/xIbqqei.png",
+      "https://i.imgur.com/kRmCKUT.png",
+      "https://i.imgur.com/c0osuze.png",
+    ],
     age: "3 years",
     height: "20 cm",
     price: "",
