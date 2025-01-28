@@ -1,4 +1,6 @@
 import React, { useMemo } from "react";
+import { motion } from "framer-motion";
+
 import { BannerContainer, Logo } from "./styles";
 import logo from "../../assets/logos/logo_name.png";
 
@@ -19,7 +21,14 @@ const Banner: React.FC = () => {
 
   return (
     <BannerContainer backgroundImage={randomImage}>
-      <Logo src={logo} alt="Logotipo da Empresa" />
+      <Logo
+        src={logo}
+        alt="Logotipo da Empresa"
+        initial={{ opacity: 0, x: -30 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        whileHover={{ scale: 1.05 }}
+      />
     </BannerContainer>
   );
 };

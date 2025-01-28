@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 interface BannerProps {
   backgroundImage: string;
@@ -31,7 +32,7 @@ export const BannerContainer = styled.div<BannerProps>`
   }
 `;
 
-export const Logo = styled.img`
+export const Logo = styled(motion.img)`
   width: 67%;
   max-width: 800px; /* Ajuste esse valor conforme necessário */
   height: auto;
