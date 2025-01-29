@@ -15,7 +15,7 @@ export const ImageContainer = styled.img`
   max-height: 150px;
   max-width: 180px;
   width: auto;
-  height: auto;
+  height: 140px;
   margin: 10px auto 10px auto;
 `;
 

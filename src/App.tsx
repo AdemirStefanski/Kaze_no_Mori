@@ -3,22 +3,23 @@ import Header from "./components/header";
 import { GlobalStyle } from "../src/styles/globalStyle";
 import CardBonsai from "./components/cardBonsai";
 import Banner from "./components/banner";
+import BonsaiRow from "./components/rowBonsai";
 
 function App() {
-  const bonsais = [
-    {
-      id: 1,
-      name: "Bonsai de Caliandra",
-      images: [
-        "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9458-removebg-preview-4net407vhy.png",
-        "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9461-removebg-preview-pgldx85edm.png",
-        "https://i.imgur.com/ALV20Of.jpeg",
-      ],
-      age: "5 anos",
-      height: "30 cm",
-      price: "400,00",
-    },
-  ];
+  // const bonsais = [
+  //   {
+  //     id: 1,
+  //     name: "Bonsai de Caliandra",
+  //     images: [
+  //       "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9458-removebg-preview-4net407vhy.png",
+  //       "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9461-removebg-preview-pgldx85edm.png",
+  //       "https://i.imgur.com/ALV20Of.jpeg",
+  //     ],
+  //     age: "5 anos",
+  //     height: "30 cm",
+  //     price: "400,00",
+  //   },
+  // ];
   return (
     <div className="App">
       <GlobalStyle />
@@ -37,6 +38,7 @@ function App() {
           <CardBonsai key={bonsai.id} bonsai={bonsai} />
         ))}
       </div> */}
+      <BonsaiRow />
     </div>
   );
 }
