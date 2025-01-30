@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface SubCategoriesProps {
+  isOpen: boolean;
+}
+
 export const HeaderContainer = styled.header`
   max-width: 1200px;
   width: 100%;
@@ -152,34 +156,63 @@ export const DropdownMenu = styled.div`
 
 export const Category = styled.div`
   position: relative;
-  padding: 10px;
+  padding: 10px 20px;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
 
-  &:hover .sub-categories {
-    display: block;
-  }
-
-  /* Mudança de cor quando o mouse passa sobre o texto "Pots" */
   &:hover {
     color: #e4d7c6; /* Cor ao passar o mouse */
   }
 `;
 
-export const SubCategories = styled.div`
-  display: none;
+export const SubCategories = styled.div<SubCategoriesProps>`
   position: absolute;
   top: 100%;
   left: 0;
   background-color: #fff;
-  width: 100%;
+  width: max-content;
+  min-width: 150px;
+  max-height: 40vh;
+  overflow-y: auto;
+  overflow-x: hidden;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 15px 5px; /* 15px nas laterais superior e inferior, 5px nas laterais esquerda e direita */
-  width: auto; /* A largura será ajustada automaticamente ao conteúdo */
-  min-width: 100px;
+  padding: 15px 15px 15px 5px; /* Aumenta o padding-right para dar espaço */
   border-radius: 8px;
   white-space: nowrap;
+  z-index: 10;
+  display: ${(props) => (props.isOpen ? "block" : "none")};
+
+  /* Estilização da barra de rolagem */
+  &::-webkit-scrollbar {
+    width: 10px; /* Ajuste para a largura da barra de rolagem */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 8px;
+    margin: 10px 0; /* Afasta a barra de rolagem da parte superior e inferior */
+    margin-right: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #517970;
+    border-radius: 8px;
+    margin-right: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: darken(#517970, 10%);
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  &::-webkit-scrollbar-corner {
+    background: #fff;
+    border-radius: 8px;
+  }
 `;
 
 export const CategoryItem = styled.div`
