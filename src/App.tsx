@@ -1,46 +1,48 @@
 import React from "react";
-import Header from "./components/header";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useNavigate,
+} from "react-router-dom";
+
 import { GlobalStyle } from "../src/styles/globalStyle";
-import CardBonsai from "./components/cardBonsai";
+
+import Header from "./components/header";
 import Banner from "./components/banner";
 import BonsaiRow from "./components/rowBonsai";
+import BonsaiCare from "./pages/bonsaiCare";
 
-function App() {
-  // const bonsais = [
-  //   {
-  //     id: 1,
-  //     name: "Bonsai de Caliandra",
-  //     images: [
-  //       "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9458-removebg-preview-4net407vhy.png",
-  //       "https://cdn.awsli.com.br/2500x2500/1396/1396625/produto/293993240/img_9461-removebg-preview-pgldx85edm.png",
-  //       "https://i.imgur.com/ALV20Of.jpeg",
-  //     ],
-  //     age: "5 anos",
-  //     height: "30 cm",
-  //     price: "400,00",
-  //   },
-  // ];
+const MainPage: React.FC = () => {
+  const navigate = useNavigate();
   return (
     <div className="App">
       <GlobalStyle />
       <Header />
       <Banner />
-      {/* <div
+      <BonsaiRow />
+      <button
+        onClick={() => navigate("/bonsai-care")}
         style={{
-          display: "flex",
-          gap: "20px",
-          width: "1000%",
-          maxWidth: "1200px",
-          margin: "20px auto",
+          marginLeft: "1rem",
+          padding: "0.5rem 1rem",
+          border: "2px solid #007BFF",
+          borderRadius: "8px",
         }}
       >
-        {bonsais.map((bonsai) => (
-          <CardBonsai key={bonsai.id} bonsai={bonsai} />
-        ))}
-      </div> */}
-      <BonsaiRow />
+        Ir para Cuidados com Bonsai
+      </button>
     </div>
   );
-}
+};
+
+const App: React.FC = () => (
+  <Router>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/bonsai-care" element={<BonsaiCare />} />
+    </Routes>
+  </Router>
+);
 
 export default App;
