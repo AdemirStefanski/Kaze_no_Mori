@@ -1,4 +1,3 @@
-// src/pages/BonsaiCareStyles.ts
 import styled from "styled-components";
 
 export const PageWrapper = styled.div`
@@ -116,6 +115,10 @@ export const Text = styled.p`
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+`;
+export const Spacer = styled.div`
+  height: 15px;
+  width: 100%;
 `;
 
 export const BoldText = styled.span`

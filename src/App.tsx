@@ -12,6 +12,7 @@ import Header from "./components/header";
 import Banner from "./components/banner";
 import BonsaiRow from "./components/rowBonsai";
 import BonsaiCare from "./pages/bonsaiCare";
+import BonsaiHistory from "./pages/bonsaiHistory";
 
 const MainPage: React.FC = () => {
   const navigate = useNavigate();
@@ -41,6 +42,7 @@ const App: React.FC = () => (
     <Routes>
       <Route path="/" element={<MainPage />} />
       <Route path="/bonsai-care" element={<BonsaiCare />} />
+      <Route path="/bonsai-history" element={<BonsaiHistory />} />
     </Routes>
   </Router>
 );

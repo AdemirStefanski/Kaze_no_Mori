@@ -1,4 +1,3 @@
-// src/pages/bonsaiCare.tsx
 import React from "react";
 import {
   PageWrapper,
@@ -16,6 +15,7 @@ import {
   ImageWrapper,
   Image,
   DividerLine,
+  Spacer,
 } from "./styles";
 import Header from "../../components/header";
 
@@ -60,6 +60,7 @@ const BonsaiCare: React.FC = () => {
           Bonsai care techniques. It is also important to adapt these care
           guidelines to your specific tree species.
         </Text>
+        <Spacer />
 
         <Title>Placement</Title>
         <Text>
@@ -91,6 +92,7 @@ const BonsaiCare: React.FC = () => {
             Indoor Bonsai trees; a Ficus, Carmona, and Chinese elm.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <SubSubtitle>
           Why can’t I keep temperate, nontropical Bonsai indoors?
@@ -199,6 +201,7 @@ const BonsaiCare: React.FC = () => {
             maple.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <SubSubtitle>Conditions Specific to Your Balcony/Garden</SubSubtitle>
         <Text>
@@ -215,6 +218,7 @@ const BonsaiCare: React.FC = () => {
           Bonsai. Just make sure the species you choose can thrive in your
           specific conditions.
         </Text>
+        <Spacer />
 
         <Subtitle>Outdoor Bonsai Tree Care</Subtitle>
         <Text>
@@ -301,6 +305,7 @@ const BonsaiCare: React.FC = () => {
             Proper watering ensures your Bonsai thrives.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <Subtitle>When?</Subtitle>
         <Text>
@@ -314,6 +319,7 @@ const BonsaiCare: React.FC = () => {
           To thoroughly soak the root system, water your Bonsai until water runs
           out from the drainage holes. Repeat if necessary after a few minutes.
         </Text>
+        <Spacer />
 
         <ImageWrapper>
           <Image
@@ -324,6 +330,7 @@ const BonsaiCare: React.FC = () => {
             Ensure thorough watering for healthy roots.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <Subtitle>Conclusion</Subtitle>
         <Text>
@@ -361,6 +368,7 @@ const BonsaiCare: React.FC = () => {
             Biogold is a popular organic fertilizer among Bonsai enthusiasts.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <Subtitle>Which fertilizer to choose?</Subtitle>
         <Text>
@@ -467,6 +475,7 @@ const BonsaiCare: React.FC = () => {
             mass.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <SubSubtitle>When to Repot?</SubSubtitle>
         <Text>
@@ -585,6 +594,7 @@ const BonsaiCare: React.FC = () => {
           However, many experts have moved away from using it, preferring a mix
           of Akadama, pumice, and lava rock.
         </Text>
+        <Spacer />
 
         <Subtitle>Recommended Bonsai Soil Mixtures</Subtitle>
         <Text>
@@ -647,6 +657,7 @@ const BonsaiCare: React.FC = () => {
             leaves.
           </ImageCaption>
         </ImageWrapper>
+        <Spacer />
 
         <Subtitle>How to Choose a Pot</Subtitle>
         <Text>
@@ -687,6 +698,7 @@ const BonsaiCare: React.FC = () => {
           />
           <ImageCaption>An unglazed Bonsai pot with round shapes.</ImageCaption>
         </ImageWrapper>
+        <Spacer />
         <Subtitle>The Design of a Bonsai Pot</Subtitle>
         <Text>
           Generally, masculine pots are deep, angular, have clean lines, and
@@ -763,6 +775,8 @@ const BonsaiCare: React.FC = () => {
           </ImageCaption>
         </ImageWrapper>
 
+        <Spacer />
+
         <SubSubtitle>Case Studies: Masculine vs Feminine</SubSubtitle>
         <ImageWrapper>
           <img src={PotBonsai05} alt="Masculine Bonsai" />
@@ -814,6 +828,8 @@ const BonsaiCare: React.FC = () => {
           the eye.
         </Text>
 
+        <Spacer />
+
         <Subtitle>Case Studies: Forest Planting</Subtitle>
         <ImageWrapper>
           <img src={PotBonsai08} alt="Forest Planting Bonsai" />
@@ -834,6 +850,8 @@ const BonsaiCare: React.FC = () => {
           an oval pot for this composition, although it would have worked with
           an unglazed red or glazed with earth tones.
         </Text>
+
+        <Spacer />
 
         <Subtitle>Case Studies: Seasonal Colors</Subtitle>
         <ImageWrapper>
