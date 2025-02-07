@@ -13,6 +13,7 @@ import Banner from "./components/banner";
 import BonsaiRow from "./components/rowBonsai";
 import BonsaiCare from "./pages/bonsaiCare";
 import BonsaiHistory from "./pages/bonsaiHistory";
+import CareHistoryContainer from "./components/careHistoryContainer";
 
 const MainPage: React.FC = () => {
   const navigate = useNavigate();
@@ -22,17 +23,7 @@ const MainPage: React.FC = () => {
       <Header />
       <Banner />
       <BonsaiRow />
-      <button
-        onClick={() => navigate("/bonsai-care")}
-        style={{
-          marginLeft: "1rem",
-          padding: "0.5rem 1rem",
-          border: "2px solid #007BFF",
-          borderRadius: "8px",
-        }}
-      >
-        Ir para Cuidados com Bonsai
-      </button>
+      <CareHistoryContainer />
     </div>
   );
 };
