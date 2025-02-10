@@ -17,6 +17,7 @@ import CareHistoryContainer from "./components/careHistoryContainer";
 import TestimonialCard from "./components/cardTestimonial";
 import TestimonialCarousel from "./components/testimonialCarousel";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/footer";
 
 const MainPage: React.FC = () => {
   const navigate = useNavigate();
@@ -29,6 +30,7 @@ const MainPage: React.FC = () => {
       <CareHistoryContainer />
       <TestimonialCarousel />
       <Newsletter />
+      <Footer />
     </div>
   );
 };

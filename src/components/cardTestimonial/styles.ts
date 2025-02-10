@@ -23,7 +23,7 @@ export const Card = styled.div<CardProps>`
 `;
 
 export const Header = styled.div`
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 `;
 
 export const Name = styled.span`

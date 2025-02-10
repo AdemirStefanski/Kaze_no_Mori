@@ -9,7 +9,7 @@ export const NewsletterContainer = styled.div`
   align-items: center; /* Centraliza verticalmente */
   padding: 20px;
   max-width: 1200px;
-  margin: 20px auto;
+  margin: 50px auto 10px auto;
   background-color: #bfd9a3;
   border-radius: 10px;
 `;
