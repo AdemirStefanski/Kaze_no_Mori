@@ -1,0 +1,356 @@
+[
+  {
+    "name": "Carlos Eduardo",
+    "location": "São Paulo, SP, BR",
+    "review": "I was amazed by the quality of the bonsai I received! It was perfectly pruned and in excellent condition.",
+    "rating": 5
+  },
+  {
+    "name": "Ana Beatriz",
+    "location": "Rio de Janeiro, RJ, BR",
+    "review": "The customer service was incredibly helpful in choosing the right bonsai for my home.",
+    "rating": 5
+  },
+  {
+    "name": "Marcos Lima",
+    "location": "Belo Horizonte, MG, BR",
+    "review": "The tools I bought were high-quality and made my bonsai maintenance much easier!",
+    "rating": 5
+  },
+  {
+    "name": "Juliana Souza",
+    "location": "Curitiba, PR, BR",
+    "review": "My bonsai arrived in perfect condition, and the packaging was very secure!",
+    "rating": 5
+  },
+  {
+    "name": "Fernando",
+    "location": "Recife, PE, BR",
+    "review": "Great variety of accessories! I found everything I needed for my bonsai.",
+    "rating": 4
+  },
+  {
+    "name": "Camila R.",
+    "location": "Porto Alegre, RS, BR",
+    "review": "Fast shipping and great customer support. They answered all my questions!",
+    "rating": 5
+  },
+  {
+    "name": "Thiago Silva",
+    "location": "Florianópolis, SC, BR",
+    "review": "The bonsai was smaller than I expected, but still beautiful and well cared for.",
+    "rating": 4
+  },
+  {
+    "name": "Luiz Fernando",
+    "location": "Fortaleza, CE, BR",
+    "review": "Why does the tree not grow bigger? I water it every day!",
+    "rating": 2
+  },
+  {
+    "name": "Patricia Gomes",
+    "location": "Brasília, DF, BR",
+    "review": "Fantastic service! They even gave me care tips for my new bonsai.",
+    "rating": 5
+  },
+  {
+    "name": "Rafael Oliveira",
+    "location": "Goiânia, GO, BR",
+    "review": "The prices are a bit high, but the quality of the bonsais is unmatched.",
+    "rating": 4
+  },
+  {
+    "name": "Beatriz Lemos",
+    "location": "Manaus, AM, BR",
+    "review": "I ordered a bonsai and a set of tools, everything arrived on time and well packaged.",
+    "rating": 5
+  },
+  {
+    "name": "Jorge Santos",
+    "location": "João Pessoa, PB, BR",
+    "review": "I don't like plants, but my wife made me buy one. It looks fine, I guess.",
+    "rating": 3
+  },
+  {
+    "name": "Carla Mendes",
+    "location": "São Luís, MA, BR",
+    "review": "The customer service was amazing, they really know their stuff!",
+    "rating": 5
+  },
+  {
+    "name": "Bruno N.",
+    "location": "Maceió, AL, BR",
+    "review": "I got a bonsai for my office, and it adds such a calming vibe!",
+    "rating": 5
+  },
+  {
+    "name": "Vanessa Oliveira",
+    "location": "Natal, RN, BR",
+    "review": "The soil mix they sell is excellent, my bonsai has been thriving!",
+    "rating": 5
+  },
+  {
+    "name": "Ricardo A.",
+    "location": "Campo Grande, MS, BR",
+    "review": "The tree didn’t grow in a week, very disappointed!",
+    "rating": 1
+  },
+  {
+    "name": "Gabriela Pires",
+    "location": "Vitória, ES, BR",
+    "review": "Beautiful bonsai! The leaves were healthy, and the pot was elegant.",
+    "rating": 5
+  },
+  {
+    "name": "Eduardo Carvalho",
+    "location": "Teresina, PI, BR",
+    "review": "I loved the personalized recommendations, they helped me find the perfect bonsai.",
+    "rating": 5
+  },
+  {
+    "name": "Paulo Henrique",
+    "location": "Aracaju, SE, BR",
+    "review": "Good product, but the delivery took a little longer than expected.",
+    "rating": 4
+  },
+  {
+    "name": "Isabela C.",
+    "location": "Rio Branco, AC, BR",
+    "review": "My bonsai arrived a little dry, but after following their care tips, it recovered well!",
+    "rating": 4
+  },
+  {
+    "name": "Lucas Ferreira",
+    "location": "Salvador, BA, BR",
+    "review": "I bought a bonsai tree and several accessories. The quality and service were excellent.",
+    "rating": 5
+  },
+  {
+    "name": "Mariana",
+    "location": "Campinas, SP, BR",
+    "review": "The bonsai care tips provided with the purchase were very useful. Highly recommended!",
+    "rating": 5
+  },
+  {
+    "name": "Gabriel Mendes",
+    "location": "Niterói, RJ, BR",
+    "review": "I appreciated the fast delivery and friendly service. The tree is thriving!",
+    "rating": 5
+  },
+  {
+    "name": "Rafaela",
+    "location": "Joinville, SC, BR",
+    "review": "The bonsai arrived healthy and well-packaged. The team was supportive with care instructions.",
+    "rating": 4
+  },
+  {
+    "name": "Pedro Silva",
+    "location": "Cuiabá, MT, BR",
+    "review": "The accessories are well-made, and the bonsai looks stunning in my living room.",
+    "rating": 5
+  },
+  {
+    "name": "Amanda Santos",
+    "location": "Maringá, PR, BR",
+    "review": "Excellent product quality and outstanding customer service. I'll buy again.",
+    "rating": 5
+  },
+  {
+    "name": "Igor",
+    "location": "Uberlândia, MG, BR",
+    "review": "The tree has a unique charm and the team was friendly. Overall, a pleasant experience.",
+    "rating": 5
+  },
+  {
+    "name": "Beatriz Alves",
+    "location": "Sorocaba, SP, BR",
+    "review": "I ordered bonsai supplies and they came with detailed instructions. Very satisfied.",
+    "rating": 5
+  },
+  {
+    "name": "Daniel",
+    "location": "Ribeirão Preto, SP, BR",
+    "review": "The bonsai and the tools were exactly as described. Delivery was fast.",
+    "rating": 5
+  },
+  {
+    "name": "Sofia Rocha",
+    "location": "Osasco, SP, BR",
+    "review": "I loved the variety of bonsai offered. The customer support helped me choose the right one.",
+    "rating": 5
+  },
+  {
+    "name": "Victor",
+    "location": "Bauru, SP, BR",
+    "review": "The product quality is top-notch. However, I found the packaging a bit lacking.",
+    "rating": 4
+  },
+  {
+    "name": "Alice Martins",
+    "location": "Niterói, RJ, BR",
+    "review": "The service was outstanding and the bonsai looks beautiful. A great purchase overall. ",
+    "rating": 5
+  },
+  {
+    "name": "Eduarda",
+    "location": "Contagem, MG, BR",
+    "review": "My bonsai care kit was delivered promptly and with care. Customer service was friendly.",
+    "rating": 5
+  },
+  {
+    "name": "Renato Costa",
+    "location": "Juiz de Fora, MG, BR",
+    "review": "The variety of tools was impressive. I am very happy with my purchase.",
+    "rating": 5
+  },
+  {
+    "name": "Marta",
+    "location": "Natal, RN, BR",
+    "review": "I received a wonderful bonsai, although the instructions could be clearer.",
+    "rating": 4
+  },
+  {
+    "name": "Ricardo",
+    "location": "Florianópolis, SC, BR",
+    "review": "The team provided excellent advice on bonsai care, which made the experience better.",
+    "rating": 5
+  },
+  {
+    "name": "Larissa",
+    "location": "Vitória, ES, BR",
+    "review": "Very satisfied with my purchase. The bonsai was exactly what I expected.",
+    "rating": 5
+  },
+  {
+    "name": "André Gomes",
+    "location": "Uberaba, MG, BR",
+    "review": "The bonsai accessories were unique and of high quality. I highly recommend this company.",
+    "rating": 5
+  },
+  {
+    "name": "Camila",
+    "location": "Caxias do Sul, RS, BR",
+    "review": "I was pleased with the product quality and customer service, though shipping was a bit slow.",
+    "rating": 4
+  },
+  {
+    "name": "Felipe Oliveira",
+    "location": "Santos, SP, BR",
+    "review": "Good products, but I found the customer support a bit unresponsive at times.",
+    "rating": 3
+  },
+  {
+    "name": "Luan",
+    "location": "Campinas, SP, BR",
+    "review": "Everything from the bonsai to the tools exceeded my expectations. Amazing service!",
+    "rating": 5
+  },
+  {
+    "name": "Marisa Ferreira",
+    "location": "Feira de Santana, BA, BR",
+    "review": "I purchased a bonsai tree as a gift and it was a hit. Delivery was prompt.",
+    "rating": 5
+  },
+  {
+    "name": "Igor Ribeiro",
+    "location": "Canoas, RS, BR",
+    "review": "The bonsai I bought is flourishing, and the accessory set was very handy.",
+    "rating": 5
+  },
+  {
+    "name": "Julia",
+    "location": "Londrina, PR, BR",
+    "review": "I really appreciate the detailed care instructions that came with my bonsai.",
+    "rating": 5
+  },
+  {
+    "name": "Sergio",
+    "location": "Uberlândia, MG, BR",
+    "review": "The product quality is excellent, though the packaging could have been more eco-friendly.",
+    "rating": 4
+  },
+  {
+    "name": "Marcos",
+    "location": "Recife, PE, BR",
+    "review": "I had a minor issue with the delivery, but the customer service resolved it quickly.",
+    "rating": 4
+  },
+  {
+    "name": "Elisa",
+    "location": "Vitória, ES, BR",
+    "review": "The bonsai tree is vibrant and beautiful. I appreciate the after-sales support.",
+    "rating": 5
+  },
+  {
+    "name": "Otávio",
+    "location": "Porto Alegre, RS, BR",
+    "review": "I was impressed by the quality of the tools. My bonsai maintenance has never been easier.",
+    "rating": 5
+  },
+  {
+    "name": "Renata Lima",
+    "location": "Belo Horizonte, MG, BR",
+    "review": "Great quality bonsai and very responsive customer service.",
+    "rating": 5
+  },
+  {
+    "name": "Fábio",
+    "location": "Santos, SP, BR",
+    "review": "The product selection is excellent, but I wish the shipping was faster.",
+    "rating": 4
+  },
+  {
+    "name": "Mariana",
+    "location": "São José dos Campos, SP, BR",
+    "review": "Outstanding quality and fantastic customer service. My bonsai looks stunning.",
+    "rating": 5
+  },
+  {
+    "name": "Leonardo Costa",
+    "location": "Campina Grande, PB, BR",
+    "review": "The care tips provided with the bonsai were very helpful. Highly recommended.",
+    "rating": 5
+  },
+  {
+    "name": "Priscila",
+    "location": "Belém, PA, BR",
+    "review": "I purchased accessories and they were of great quality. The team was very helpful.",
+    "rating": 5
+  },
+  {
+    "name": "Larissa Souza",
+    "location": "Mogi das Cruzes, SP, BR",
+    "review": "The bonsai arrived healthy and vibrant. The customer support was attentive.",
+    "rating": 5
+  },
+  {
+    "name": "Samuel",
+    "location": "Florianópolis, SC, BR",
+    "review": "The bonsai I received is beautiful, although I had to wait longer than expected.",
+    "rating": 4
+  },
+  {
+    "name": "Gabriela",
+    "location": "Goiânia, GO, BR",
+    "review": "Excellent product quality and a pleasant shopping experience. I will definitely return!",
+    "rating": 5
+  },
+  {
+    "name": "Pedro",
+    "location": "Campinas, SP, BR",
+    "review": "The accessories are innovative and well designed. Customer service was excellent.",
+    "rating": 5
+  },
+  {
+    "name": "Raquel",
+    "location": "Curitiba, PR, BR",
+    "review": "I found the bonsai care instructions very clear and helpful. Everything is perfect.",
+    "rating": 5
+  },
+  {
+    "name": "Bruno",
+    "location": "Porto Alegre, RS, BR",
+    "review": "The team was very friendly, and the bonsai arrived in great condition. A bit pricey, though.",
+    "rating": 4
+  }
+]

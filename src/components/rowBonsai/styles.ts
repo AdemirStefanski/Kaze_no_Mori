@@ -5,7 +5,7 @@ export const BonsaiRowContainer = styled.div`
   justify-content: center; /* Centraliza os itens horizontalmente */
   align-items: center; /* Centraliza os itens verticalmente */
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   padding: 20px 0;
   flex-wrap: nowrap; /* Não vai quebrar linha */
 `;

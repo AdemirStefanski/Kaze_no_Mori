@@ -14,6 +14,8 @@ import BonsaiRow from "./components/rowBonsai";
 import BonsaiCare from "./pages/bonsaiCare";
 import BonsaiHistory from "./pages/bonsaiHistory";
 import CareHistoryContainer from "./components/careHistoryContainer";
+import TestimonialCard from "./components/cardTestimonial";
+import TestimonialCarousel from "./components/testimonialCarousel";
 
 const MainPage: React.FC = () => {
   const navigate = useNavigate();
@@ -24,6 +26,8 @@ const MainPage: React.FC = () => {
       <Banner />
       <BonsaiRow />
       <CareHistoryContainer />
+
+      <TestimonialCarousel />
     </div>
   );
 };
