@@ -1,0 +1,342 @@
+[
+  {
+    "id": 101,
+    "quantity": 20,
+    "name": "High-Quality Container for Seedling and Pre-Bonsai Planting (5/8 Liters)",
+    "type": "Containers & Pots",
+    "material": "High-durability plastic",
+    "color": "Black",
+    "variants": [
+      {
+        "capacity": "5 Liters",
+        "dimensions": "26 x 16 cm"
+      },
+      {
+        "capacity": "8 Liters",
+        "dimensions": "33 x 14.5 cm"
+      }
+    ],
+    "description": "A durable plastic container designed for the production and nurturing of seedlings and pre-bonsai. Ideal for those who want to grow their own plants from seeds, cuttings, or layering. Its large size provides ample space for root development, enhancing overall seedling growth. The black color increases the substrate temperature, promoting rapid rooting in newly transplanted plants.",
+    "content": "1 high-quality plastic container available in 5 or 8 liters capacity"
+  },
+  {
+    "id": 102,
+    "quantity": 30,
+    "name": "Seedling Tray for Seed and Seedling Planting with 15 Cells",
+    "code": "BANDEJA",
+    "type": "Containers & Pots",
+    "material": "Durable plastic",
+    "color": "Black",
+    "capacity": "2.4 Liters",
+    "dimensions": {
+      "height": "6.5 cm",
+      "length": "34 cm",
+      "width": "21 cm"
+    },
+    "cell_details": {
+      "shape": "Square",
+      "total_cells": 15,
+      "volume_per_cell": "164 ml",
+      "top_diameter": "6.2 cm",
+      "bottom_diameter": "5 cm",
+      "drainage_holes_per_cell": 5,
+      "hole_diameter": "6 mm"
+    },
+    "description": "A seedling tray designed to optimize space and seed distribution during planting. With 15 evenly sized cells, it ensures proper spacing and supports faster, healthier seedling growth. Ideal for cultivating species like Pithecolobium tortum and Pithecolobium dumosum. After one year, plants can be transferred to a larger container or directly into the ground, thanks to the excellent root development facilitated by the tray.",
+    "content": "1 durable plastic seedling tray with 15 cells"
+  },
+  {
+    "id": 103,
+    "quantity": 10,
+    "name": "Professional Articulated Table for Bonsai Work in Noble Wood - 28cm",
+    "code": "MESA-BONSAI",
+    "type": "Workbenches & Stands",
+    "material": ["Noble wood", "Rubber", "Iron", "Non-toxic components"],
+    "color": "Brown",
+    "dimensions": {
+      "diameter": "28 cm"
+    },
+    "features": {
+      "adjustable_legs": true,
+      "rubber_base": true,
+      "articulated_support": true,
+      "plant_support_elastics": true,
+      "internal_steel_bearings": true,
+      "weight_capacity": "50 kg"
+    },
+    "description": "A high-quality, durable professional table designed for bonsai work. This articulated table is perfect for working on small, medium, and large bonsai trees, supporting up to 50 kg. With an internal steel bearing system, it provides enhanced durability and ease of movement when handling large plants. Essential for pruning, wiring, and root work, ensuring maximum efficiency and precision.",
+    "content": "1 professional articulated bonsai work table"
+  },
+  {
+    "id": 104,
+    "quantity": 25,
+    "name": "Seedling Tube Tray for Seed Planting with 32 Cells",
+    "code": "BANDEJA-TUBETE",
+    "type": "Containers & Pots",
+    "material": "Durable plastic",
+    "color": "Black",
+    "capacity": "6.0 Liters",
+    "dimensions": {
+      "height": "12 cm",
+      "length": "54 cm",
+      "width": "28 cm"
+    },
+    "cell_details": {
+      "shape": "Square",
+      "total_cells": 32,
+      "volume_per_cell": "188 ml",
+      "top_diameter": "6.2 cm",
+      "drainage_holes_per_cell": 1,
+      "hole_diameter": "8 mm"
+    },
+    "description": "A seedling tray designed to optimize space and seed distribution during planting. With 32 evenly sized cells, it ensures proper spacing and supports faster, healthier seedling growth. Ideal for cultivating species like Pithecolobium tortum and Pithecolobium dumosum. After one year, plants can be transferred to a larger container or directly into the ground, thanks to the excellent root development facilitated by the tray.",
+    "content": "1 durable plastic seedling tube tray with 32 cells"
+  },
+  {
+    "id": 105,
+    "quantity": 15,
+    "name": "Professional Wooden Table for Bonsai Work - 28cm",
+    "code": "MESA_PROFISS",
+    "type": "Workbenches & Stands",
+    "material": ["Noble wood", "Rubber", "Iron", "Non-toxic components"],
+    "color": "Brown",
+    "dimensions": {
+      "diameter": "28 cm"
+    },
+    "features": {
+      "adjustable_legs": true,
+      "rubber_base": true,
+      "table_support": true,
+      "internal_steel_bearings": true,
+      "weight_capacity": "50 kg"
+    },
+    "description": "A high-quality, durable professional table designed for bonsai work. This table is perfect for working on small, medium, and large bonsai trees, supporting up to 50 kg. With an internal steel bearing system, it provides enhanced durability and ease of movement when handling large plants. Essential for pruning, wiring, and root work, ensuring maximum efficiency and precision.",
+    "content": "1 professional wooden bonsai work table"
+  },
+  {
+    "id": 106,
+    "quantity": 50,
+    "name": "Large Bonsai Drainage Screen Kit - 10 Units",
+    "code": "TELA",
+    "type": "Drainage & Substrate Accessories",
+    "material": "Durable plastic mesh",
+    "colors": ["White", "Black", "Gray"],
+    "dimensions": {
+      "width": "7 cm",
+      "height": "7 cm"
+    },
+    "features": {
+      "pre-cut_squares": true,
+      "can_be_cut_smaller": true,
+      "prevents_soil_loss": true,
+      "improves_water_drainage": true
+    },
+    "description": "This drainage screen kit helps prevent soil from spilling through pot drainage holes, keeping your bonsai area clean. The screens can be placed at the bottom of the pot, ensuring proper drainage while retaining essential minerals and substrate. With 10 units included, they can be cut into smaller pieces to fit different pot sizes.",
+    "content": "10 pre-cut drainage screens for bonsai pots"
+  },
+  {
+    "id": 107,
+    "quantity": 40,
+    "name": "Special Enameled Aluminum Wire for Bonsai - 2.0mm",
+    "code": "ARA-20",
+    "type": "Wiring & Shaping",
+    "material": "Enameled aluminum",
+    "color": "Dark coated finish",
+    "thickness": "2.0 mm",
+    "weight": "100 g",
+    "features": {
+      "ideal_for_shaping": true,
+      "discreet_appearance": true,
+      "enhances_bonsai_aesthetics": true,
+      "long-lasting_durability": true
+    },
+    "description": "This 2.0mm enameled aluminum wire is perfect for bonsai styling, allowing precise shaping while maintaining a natural appearance. The enamel coating helps conceal the wire, making the tree the focal point rather than the wiring. A 100g roll provides enough wire for multiple trees, making it an essential tool for bonsai enthusiasts.",
+    "content": "1 roll of 2.0mm enameled aluminum bonsai wire (100g)"
+  },
+  {
+    "id": 108,
+    "quantity": 30,
+    "name": "Manual Sprayer for Bonsai and Home Use (5 Spray Modes)",
+    "code": "ESGUI-VER",
+    "type": "watering",
+    "material": "High-resistance plastic",
+    "color": "Green",
+    "spray_modes": 5,
+    "connector_type": "Male quick-connect 1/2",
+    "dimensions": {
+      "depth": "12.5 cm",
+      "height": "6.5 cm",
+      "width": "23.5 cm"
+    },
+    "features": {
+      "multi-purpose_use": true,
+      "prevents_soil_displacement": true,
+      "adjustable_spray_patterns": true,
+      "durable_construction": true
+    },
+    "description": "This manual sprayer is perfect for watering bonsai trees without disturbing the substrate. With five adjustable spray modes, it offers versatility for various tasks such as watering plants, cleaning patios, and washing cars. Its high-quality plastic construction ensures long-lasting durability and ease of use.",
+    "content": "1 manual sprayer with 5 adjustable spray modes"
+  },
+  {
+    "id": 109,
+    "quantity": 15,
+    "name": "Tempered Copper Wire Kit for Bonsai - ABC do Bonsai",
+    "code": "KIT_ARAM_COBRE",
+    "type": "wiring",
+    "material": "Tempered copper",
+    "weight": "1.4 kg",
+    "wire_sizes": {
+      "0.5mm": "100g",
+      "0.75mm": "100g",
+      "1.0mm": "200g",
+      "1.5mm": "200g",
+      "2.0mm": "200g",
+      "2.5mm": "200g",
+      "3.0mm": "200g",
+      "3.5mm": "200g"
+    },
+    "features": {
+      "professional_quality": true,
+      "stronger_than_aluminum": true,
+      "better_wire_concealment": true,
+      "resistant_to_deformation": true,
+      "not_recommended_for_azaleas": true
+    },
+    "description": "A complete professional-grade bonsai wiring kit featuring tempered copper wires in all essential sizes. Copper wires provide superior strength and flexibility, allowing for finer and more discreet wiring compared to aluminum. Once applied, the wire hardens, ensuring better branch positioning and stability. Renowned bonsai artists worldwide prefer copper for high-level styling. Not recommended for azaleas, as copper is toxic to them.",
+    "content": "8 wire sizes totaling 1.4 kg: 0.5mm (100g), 0.75mm (100g), 1.0mm (200g), 1.5mm (200g), 2.0mm (200g), 2.5mm (200g), 3.0mm (200g), 3.5mm (200g)"
+  },
+  {
+    "id": 110,
+    "quantity": 20,
+    "name": "Plastic Substrate Scoop for Bonsai - Various Colors",
+    "code": "PEG-PAZ",
+    "type": "tools",
+    "material": "Rigid plastic",
+    "dimensions": {
+      "length": "16 cm",
+      "width": "6 cm"
+    },
+    "features": {
+      "ergonomic_handle": true,
+      "angled_mouth_for_precision": true,
+      "durable_material": true,
+      "random_color_selection": true
+    },
+    "description": "A practical and durable plastic scoop designed for easy handling of bonsai substrate. Its ergonomic grip ensures firm control, while the angled mouth allows for precise application. Made from rigid plastic for long-lasting use. Available in various colors, selected at the time of purchase.",
+    "content": "1 plastic substrate scoop"
+  },
+  {
+    "id": 111,
+    "quantity": 15,
+    "name": "High-Resistance Canvas Tool Case for Bonsai - 80 cm",
+    "code": "ESTFER",
+    "type": "storage",
+    "material": "High-resistance canvas",
+    "dimensions": {
+      "open": {
+        "length": "80 cm",
+        "width": "29 cm"
+      },
+      "closed": {
+        "length": "29 cm",
+        "width": "12.5 cm"
+      }
+    },
+    "features": {
+      "reinforced_industrial_stitching": true,
+      "tear_resistant": true,
+      "9_tool_slots": true,
+      "two_zippered_side_pockets": true,
+      "secure_closure_with_press_lock": true,
+      "carrying_handle": true,
+      "protects_tools_from_dirt_and_moisture": true
+    },
+    "description": "Durable and practical tool case made from high-resistance canvas, featuring reinforced industrial stitching and a secure closure system. Designed to safely store and transport bonsai tools while preventing damage and maintaining sharpness. Includes a carrying handle and two zippered side pockets for extra storage. Tools not included.",
+    "content": "1 canvas tool case (tools not included)"
+  },
+  {
+    "id": 112,
+    "quantity": 20,
+    "name": "Sphagnum Moss for Air Layering and Bonsai Substrate Cover - 50g",
+    "code": "MUSGO",
+    "type": "substrate",
+    "material": "Sphagnum moss",
+    "features": {
+      "high_water_retention": true,
+      "nutrient_provider": true,
+      "ideal_for_air_layering": true,
+      "aesthetic_and_moisture_control": true,
+      "suitable_for_orchids_carnivorous_plants_and_bromeliads": true
+    },
+    "description": "Sphagnum moss is an organic substrate with exceptional water retention properties, holding up to 20 times its weight in water. It provides essential nutrients for plant growth and is ideal for air layering, encouraging strong root development. It is also widely used as a soil component or as a top layer in bonsai pots to maintain humidity and enhance aesthetics.",
+    "content": "50 grams of Sphagnum moss (sufficient for 5 to 7 medium air layerings)"
+  },
+  {
+    "id": 113,
+    "quantity": 20,
+    "name": "Aluminum Hashi for Bonsai - 23cm",
+    "code": "HASHI",
+    "type": "tool",
+    "material": "Aluminum",
+    "features": {
+      "durable": true,
+      "rust_resistant": true,
+      "ideal_for_removing_old_soil": true,
+      "helps_accommodate_new_substrate": true,
+      "prevents_air_pockets": true
+    },
+    "description": "Aluminum Hashi is an essential tool for bonsai transplanting, helping to remove old soil from roots and properly settle new substrate, eliminating air pockets. Unlike wooden or bamboo alternatives, it does not break or wear out over time, making it a lifelong tool.",
+    "content": "1 unit, 23cm in length"
+  },
+  {
+    "id": 114,
+    "quantity": 15,
+    "name": "Small Pressure Sprayer for Bonsai - 1L",
+    "code": "PULV-VON-1LT",
+    "type": "watering",
+    "material": "High-quality plastic",
+    "features": {
+      "adjustable_nozzle": true,
+      "ideal_for_misting_leaves_and_trunk": true,
+      "helps_during_transplants": true,
+      "suitable_for_insecticide_application": true,
+      "refreshes_plants_on_hot_days": true
+    },
+    "description": "This 1-liter pressure sprayer is an essential tool for misting bonsai leaves and trunks after root pruning, helping to keep them hydrated. It's also ideal for applying insecticides and other treatments. The adjustable nozzle allows for precise spraying, making plant care easier and more effective.",
+    "content": "1 unit, 1-liter capacity"
+  },
+  {
+    "id": 115,
+    "quantity": 20,
+    "name": "Manual Watering Can with Fine Spout - 2L",
+    "code": "REG-BIC-FIN",
+    "type": "watering",
+    "material": "High-quality injected plastic",
+    "features": {
+      "fine_spout": true,
+      "ergonomic_handle": true,
+      "prevents_soil_splashing": true,
+      "ideal_for_small_collections": true,
+      "suitable_for_various_environments": true
+    },
+    "description": "This 2-liter manual watering can is perfect for precise watering of bonsai and other plants. The fine spout ensures gentle watering without disturbing the substrate or fertilizer. Its ergonomic handle provides a firm grip, and its design makes it ideal for use in bonsai benches, gardens, and indoor plants.",
+    "content": "1 unit, available in blue, pink, white, and green."
+  },
+  {
+    "id": 116,
+    "quantity": 20,
+    "name": "Manual Sprayer Vonder for Bonsai - 450ml",
+    "code": "PULV-VON-450",
+    "type": "watering",
+    "material": "High-quality plastic",
+    "features": {
+      "adjustable_nozzle": true,
+      "compact_size": true,
+      "ideal_for_transplanting": true,
+      "suitable_for_insecticides_and_treatments": true,
+      "not_for_solvents_or_acids": true
+    },
+    "description": "This 450ml manual sprayer is perfect for misting bonsai leaves and roots during transplanting, refreshing plants in hot weather, and aiding in the cleaning of deadwood preservation. Its small size makes handling easier, and it is also ideal for applying insecticides and protective treatments.",
+    "content": "1 unit, ready for immediate shipping."
+  }
+]
